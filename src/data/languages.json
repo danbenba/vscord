@@ -201,6 +201,10 @@
             "image": "text"
         },
         {
+            "language": "lean",
+            "image": "lean"
+        },
+        {
             "language": "less",
             "image": "less"
         },
@@ -1047,6 +1051,12 @@
         },
         "/\\.kt[ms]?$/i": {
             "image": "kotlin"
+        },
+        ".lean": {
+            "image": "lean"
+        },
+        ".lean4markdown": {
+            "image": "lean"
         },
         ".less": {
             "image": "less"
