@@ -1,5 +1,10 @@
-import gitUrlParse from "git-url-parse";
+import type { API as GitApi, GitExtension, Remote, Repository } from "./@types/git";
+import { stripCredential } from "./helpers/stripCredential";
 import { basename, parse, sep } from "node:path";
+import { CONFIG_KEYS } from "./constants";
+import gitUrlParse from "git-url-parse";
+import { getConfig } from "./config";
+import { logInfo } from "./logger";
 import {
     type Disposable,
     type Extension,
@@ -10,11 +15,6 @@ import {
     window,
     workspace
 } from "vscode";
-import type { API as GitApi, GitExtension, Remote, Repository } from "./@types/git";
-import { getConfig } from "./config";
-import { CONFIG_KEYS } from "./constants";
-import { stripCredential } from "./helpers/stripCredential";
-import { logInfo } from "./logger";
 
 const ALLOWED_SCHEME = ["file", "vscode-remote", "untitled", "vsls"];
 

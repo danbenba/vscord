@@ -1,5 +1,5 @@
-import { Command, StatusBarAlignment, StatusBarItem, window } from "vscode";
 import { ExtensionConfiguration, ExtensionConfigurationType, getConfig } from "./config";
+import { StatusBarAlignment, StatusBarItem, window } from "vscode";
 import { CONFIG_KEYS } from "./constants";
 
 export enum StatusBarMode {
