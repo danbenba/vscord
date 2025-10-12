@@ -87,6 +87,7 @@ The following variables will be replaced with the respective value in custom str
 | `{lang}` \| `{Lang}` \| `{LANG}`      | format of the lang string (css, Css, CSS)          |
 | `{a_lang}` \| `{a_Lang}`\| `{a_LANG}` | same as the above, but prefixes with "a" or "an"   |
 | `{problems}`                          | problems text defined in settings                  |
+| `{problems_pluralize}`                | the word `problem`, pluralized by count            |
 | `{problems_count}`                    | number of problems                                 |
 | `{problems_count_errors}`             | number of problems that are errors                 |
 | `{problems_count_warnings}`           | number of problems that are warnings               |
