@@ -1,8 +1,7 @@
 import { ExtensionBasedProvider } from "./extensionBasedProvider";
+import { extensions, window } from "vscode";
+import { GitExtension } from "../types/git";
 import { Extension } from "../extension";
-import { extensions, window, workspace } from "vscode";
-import { Git, GitExtension } from "../types/git";
-import { TextEditorBasedProvider } from "./textEditorBasedProvider";
 
 export class GitProvider extends ExtensionBasedProvider {
   public override readonly extensions: string[] = ["vscode.git"];
@@ -27,7 +26,7 @@ export class GitProvider extends ExtensionBasedProvider {
   private get gitURL() {
     const remotes = this.currentRepository?.state.remotes ?? [];
     const remote = remotes.filter((r) => r.name === "origin")[0];
-    return remote ? remote.fetchUrl ?? remote.pushUrl : undefined;
+    return remote ? (remote.fetchUrl ?? remote.pushUrl) : undefined;
   }
 
   constructor(extension: Extension) {
@@ -39,5 +38,9 @@ export class GitProvider extends ExtensionBasedProvider {
       this.extension.logger.debug(this.gitURL);
       return "ok";
     });
+  }
+
+  public override shouldSkip(): boolean {
+    return this.gitApi?.state !== "initialized" || !this.currentRepository;
   }
 }

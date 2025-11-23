@@ -28,7 +28,7 @@ export class Logger extends Base {
   public log(...messages: any[]) {
     this.outputChannel.appendLine(messages.join(" "));
     // for debug console
-    console.log(...messages)
+    console.log(...messages);
   }
 
   public clear() {

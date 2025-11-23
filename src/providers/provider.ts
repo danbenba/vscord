@@ -12,7 +12,7 @@ export class Provider extends Base {
   constructor(
     extension: Extension,
     public id = "base",
-    public priority = 0
+    public priority = 0,
   ) {
     super(extension);
     this.registerVariables();
@@ -31,12 +31,17 @@ export class Provider extends Base {
   }
 
   public async resolveVariable(name: string): Promise<string | undefined> {
-    return this.variables.has(name) ? await this.variables.get(name)!() : undefined;
+    return this.variables.has(name)
+      ? await this.variables.get(name)!()
+      : undefined;
   }
 
   protected registerVariables() {}
 
-  protected async provide(name: string, value: () => Promise<string | undefined>) {
+  protected async provide(
+    name: string,
+    value: () => Promise<string | undefined>,
+  ) {
     this.variables.set(name, value);
   }
 }
