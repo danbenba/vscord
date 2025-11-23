@@ -1,7 +1,7 @@
 import { Disposable, ConfigurationTarget, StatusBarAlignment, StatusBarItem, window, commands } from "vscode";
 import { type ExtensionConfiguration, type ExtensionConfigurationType, getConfig } from "./config";
 import { CONFIG_KEYS } from "./constants";
-import { outputChannel } from "./logger";
+import { logInfo, outputChannel } from "./logger";
 
 export enum StatusBarMode {
     Disabled,
@@ -11,7 +11,8 @@ export enum StatusBarMode {
 }
 
 class EditorController implements Disposable {
-    statusBarItem = window.createStatusBarItem(this.#getAlignmentFromConfig(getConfig()));
+    statusBarItem: StatusBarItem | undefined;
+    statusBarItemMode: StatusBarMode = StatusBarMode.Disabled;
 
     #getAlignmentFromConfig(config: ExtensionConfiguration) {
         const value = config.get(CONFIG_KEYS.Behaviour.StatusBarAlignment);
@@ -20,9 +21,17 @@ class EditorController implements Disposable {
     }
 
     setStatusBarItem(mode: StatusBarMode) {
-        const { statusBarItem } = this;
+        this.statusBarItemMode = mode;
+        const config = getConfig();
+        if (!config.get(CONFIG_KEYS.Enable)) {
+            mode = StatusBarMode.Disabled;
+        }
+        if (!this.statusBarItem) {
+            logInfo("setStatusBarItem: status bar item is undefined");
+            this.statusBarItem = window.createStatusBarItem(this.#getAlignmentFromConfig(getConfig()));
+        }
         if (mode === StatusBarMode.Disabled) {
-            statusBarItem.hide();
+            this.statusBarItem.hide();
             return;
         }
 
@@ -46,8 +55,8 @@ class EditorController implements Disposable {
             [StatusBarMode.Succeeded]: whenSucceeded
         };
 
-        Object.assign(statusBarItem, statusBarItemByMode[mode]);
-        statusBarItem.show();
+        Object.assign(this.statusBarItem, statusBarItemByMode[mode]);
+        this.statusBarItem.show();
     }
 
     toggleStatusBarAlignment(onLeft?: boolean) {
@@ -61,27 +70,24 @@ class EditorController implements Disposable {
 
     updateStatusBarFromConfig() {
         const config = getConfig();
+
         const alignment = this.#getAlignmentFromConfig(config);
         const priority = undefined;
-        const old = editor.statusBarItem;
+        if (!this.statusBarItem) {
+            logInfo("updateStatusBarFromConfig: status bar item is undefined");
+            this.statusBarItem = window.createStatusBarItem(this.#getAlignmentFromConfig(getConfig()));
+        }
 
-        if (editor.statusBarItem.alignment === alignment) {
+        const old = this.statusBarItem;
+        this.setStatusBarItem(this.statusBarItemMode);
+        if (this.statusBarItem.alignment === alignment) {
             return;
         }
 
         // Change unchangable: alignment/priority
-        editor.statusBarItem = window.createStatusBarItem(alignment, priority);
-        //#region copy
-        editor.statusBarItem.accessibilityInformation = old.accessibilityInformation;
-        editor.statusBarItem.backgroundColor = old.backgroundColor;
-        editor.statusBarItem.color = old.color;
-        editor.statusBarItem.command = old.command;
-        editor.statusBarItem.name = old.name;
-        editor.statusBarItem.text = old.text;
-        editor.statusBarItem.tooltip = old.tooltip;
-        //#endregion
+        this.statusBarItem = window.createStatusBarItem(alignment, priority);
 
-        editor.statusBarItem.show();
+        this.statusBarItem.show();
         old.dispose();
     }
 
@@ -131,8 +137,8 @@ class EditorController implements Disposable {
     }
 
     public dispose(): void {
-        this.statusBarItem.hide();
-        this.statusBarItem.dispose();
+        this.statusBarItem?.dispose();
+        this.statusBarItem = undefined;
     }
 }
 
