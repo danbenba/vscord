@@ -1,60 +1,36 @@
 {
     "KNOWN_LANGUAGES": [
         {
-            "language": "abap",
-            "image": "text"
-        },
-        {
-            "language": "agda",
-            "image": "agda"
-        },
-        {
-            "language": "ansible",
-            "image": "ansible"
-        },
-        {
-            "language": "asciidoc",
-            "image": "asciidoc"
-        },
-        {
             "language": "bat",
             "image": "bat"
-        },
-        {
-            "language": "bazel",
-            "image": "bazel"
-        },
-        {
-            "language": "bibtex",
-            "image": "text"
-        },
-        {
-            "language": "citrinescript",
-            "image": "citrinescript"
         },
         {
             "language": "clojure",
             "image": "clojure"
         },
         {
-            "language": "cobol",
-            "image": "cobol"
-        },
-        {
             "language": "coffeescript",
             "image": "coffee"
+        },
+        {
+            "language": "jsonc",
+            "image": "json"
+        },
+        {
+            "language": "json",
+            "image": "json"
         },
         {
             "language": "c",
             "image": "c"
         },
         {
-            "language": "cosmo",
-            "image": "cosmo"
-        },
-        {
             "language": "cpp",
             "image": "cpp"
+        },
+        {
+            "language": "cuda-cpp",
+            "image": "cuda"
         },
         {
             "language": "csharp",
@@ -65,8 +41,8 @@
             "image": "css"
         },
         {
-            "language": "cython",
-            "image": "cython"
+            "language": "dart",
+            "image": "dart"
         },
         {
             "language": "diff",
@@ -77,12 +53,12 @@
             "image": "docker"
         },
         {
-            "language": "fortran",
-            "image": "fortran"
+            "language": "dotenv",
+            "image": "env"
         },
         {
-            "language": "fountain",
-            "image": "fountain"
+            "language": "ignore",
+            "image": "git"
         },
         {
             "language": "fsharp",
@@ -97,59 +73,31 @@
             "image": "manifest"
         },
         {
-            "language": "glsl",
-            "image": "glsl"
-        },
-        {
-            "language": "gml",
-            "image": "gml"
-        },
-        {
-            "language": "gleam",
-            "image": "gleam"
-        },
-        {
             "language": "go",
             "image": "go"
-        },
-        {
-            "language": "grain",
-            "image": "grain"
         },
         {
             "language": "groovy",
             "image": "groovy"
         },
         {
-            "language": "gamescript",
-            "image": "gamescript"
-        },
-        {
             "language": "handlebars",
             "image": "handlebars"
-        },
-        {
-            "language": "haml",
-            "image": "text"
-        },
-        {
-            "language": "holyc",
-            "image": "holyc"
-        },
-        {
-            "language": "html-eex",
-            "image": "heex"
-        },
-        {
-            "language": "html",
-            "image": "html"
         },
         {
             "language": "hlsl",
             "image": "hlsl"
         },
         {
+            "language": "html",
+            "image": "html"
+        },
+        {
             "language": "ini",
+            "image": "manifest"
+        },
+        {
+            "language": "properties",
             "image": "manifest"
         },
         {
@@ -157,68 +105,64 @@
             "image": "java"
         },
         {
-            "language": "javascript",
-            "image": "js"
-        },
-        {
             "language": "javascriptreact",
             "image": "jsx"
         },
         {
-            "language": "jinja",
-            "image": "jinja"
+            "language": "javascript",
+            "image": "js"
         },
         {
-            "language": "jsx",
+            "language": "jsx-tags",
             "image": "jsx"
         },
         {
-            "language": "json",
+            "language": "jsonl",
             "image": "json"
         },
         {
-            "language": "jsonc",
+            "language": "snippets",
             "image": "json"
         },
         {
-            "language": "jule",
-            "image": "jule"
+            "language": "julia",
+            "image": "julia"
         },
         {
-            "language": "jupyter",
-            "image": "jupyter"
+            "language": "juliamarkdown",
+            "image": "julia"
         },
         {
-            "language": "kivy",
-            "image": "kivy"
-        },
-        {
-            "language": "kag-script",
-            "image": "kag-script"
-        },
-        {
-            "language": "kirikiri-tpv-javascript",
-            "image": "kirikiri-tpv-javascript"
+            "language": "tex",
+            "image": "tex"
         },
         {
             "language": "latex",
+            "image": "tex"
+        },
+        {
+            "language": "bibtex",
             "image": "text"
         },
         {
-            "language": "lean",
-            "image": "lean"
+            "language": "cpp_embedded_latex",
+            "image": "cpp"
+        },
+        {
+            "language": "markdown_latex_combined",
+            "image": "markdown"
         },
         {
             "language": "less",
             "image": "less"
         },
         {
-            "language": "lua",
-            "image": "lua"
+            "language": "log",
+            "image": "log"
         },
         {
-            "language": "luau",
-            "image": "luau"
+            "language": "lua",
+            "image": "lua"
         },
         {
             "language": "makefile",
@@ -229,16 +173,12 @@
             "image": "markdown"
         },
         {
-            "language": "MATLAB",
-            "image": "matlab"
+            "language": "markdown-math",
+            "image": "markdown"
         },
         {
-            "language": "moonscript",
-            "image": "moonscript"
-        },
-        {
-            "language": "mojo",
-            "image": "mojo"
+            "language": "wat",
+            "image": "wasm"
         },
         {
             "language": "objective-c",
@@ -249,31 +189,11 @@
             "image": "objective-c"
         },
         {
-            "language": "odin",
-            "image": "odin"
-        },
-        {
-            "language": "onyx",
-            "image": "onyx"
-        },
-        {
-            "language": "opengoal",
-            "image": "opengoal"
-        },
-        {
-            "language": "opengoal-goos",
-            "image": "opengoal-goos"
-        },
-        {
-            "language": "opengoal-ir",
-            "image": "opengoal-ir"
-        },
-        {
             "language": "perl",
             "image": "perl"
         },
         {
-            "language": "perl6",
+            "language": "raku",
             "image": "perl"
         },
         {
@@ -281,55 +201,39 @@
             "image": "php"
         },
         {
-            "language": "plaintext",
+            "language": "powershell",
+            "image": "powershell"
+        },
+        {
+            "language": "prompt",
             "image": "text"
         },
         {
-            "language": "powershell",
-            "image": "powershell"
+            "language": "instructions",
+            "image": "text"
+        },
+        {
+            "language": "chatagent",
+            "image": "text"
         },
         {
             "language": "jade",
             "image": "pug"
         },
         {
-            "language": "pug",
-            "image": "pug"
-        },
-        {
-            "language": "prisma",
-            "image": "prisma"
-        },
-        {
             "language": "python",
             "image": "python"
-        },
-        {
-            "language": "qml",
-            "image": "qml"
         },
         {
             "language": "r",
             "image": "r"
         },
         {
-            "language": "racket",
-            "image": "racket"
-        },
-        {
             "language": "razor",
-            "image": "cshtml"
+            "image": "razor"
         },
         {
-            "language": "reasonml",
-            "image": "reasonml"
-        },
-        {
-            "language": "renpy",
-            "image": "renpy"
-        },
-        {
-            "language": "rst",
+            "language": "restructuredtext",
             "image": "restructuredtext"
         },
         {
@@ -345,8 +249,8 @@
             "image": "scss"
         },
         {
-            "language": "sass",
-            "image": "scss"
+            "language": "search-result",
+            "image": "text"
         },
         {
             "language": "shaderlab",
@@ -357,32 +261,8 @@
             "image": "shell"
         },
         {
-            "language": "slim",
-            "image": "text"
-        },
-        {
-            "language": "solidity",
-            "image": "solidity"
-        },
-        {
             "language": "sql",
             "image": "sql"
-        },
-        {
-            "language": "squirrel",
-            "image": "squirrel"
-        },
-        {
-            "language": "starlark",
-            "image": "bazel"
-        },
-        {
-            "language": "systemverilog",
-            "image": "systemverilog"
-        },
-        {
-            "language": "stylus",
-            "image": "stylus"
         },
         {
             "language": "swift",
@@ -397,44 +277,8 @@
             "image": "tsx"
         },
         {
-            "language": "templ",
-            "image": "templ"
-        },
-        {
-            "language": "tex",
-            "image": "tex"
-        },
-        {
-            "language": "typst",
-            "image": "typst"
-        },
-        {
-            "language": "umjunsik",
-            "image": "umm"
-        },
-        {
             "language": "vb",
             "image": "vb"
-        },
-        {
-            "language": "verse",
-            "image": "verse"
-        },
-        {
-            "language": "vhdl",
-            "image": "vhdl"
-        },
-        {
-            "language": "vue",
-            "image": "vue"
-        },
-        {
-            "language": "vue-html",
-            "image": "vue"
-        },
-        {
-            "language": "zura",
-            "image": "zura"
         },
         {
             "language": "xml",
@@ -445,1280 +289,629 @@
             "image": "xml"
         },
         {
-            "language": "yaml",
-            "image": "yaml"
+            "language": "dockercompose",
+            "image": "docker"
         },
         {
-            "language": "zenscript",
-            "image": "zs"
+            "language": "yaml",
+            "image": "yaml"
         }
     ],
     "KNOWN_EXTENSIONS": {
-        "nodemon.json": {
-            "image": "nodemon"
+        "/(cargo\\.toml|cargo\\.lock)/i": {
+            "image": "cargo"
         },
-        "package.json": {
-            "image": "npm"
-        },
-        "turbo.json": {
-            "image": "turbo"
-        },
-        "/(vercel|now)\\.json/i": {
+        "/(vercel|now)\\.json|\\.(now|vercel)ignore/i": {
             "image": "vercel"
         },
-        "/\\.prettier((rc)|(\\.(toml|yml|yaml|json|js))?$){2}/i": {
-            "image": "prettier"
-        },
-        "/\\.eslint((rc|ignore)|(\\.(json|js))?$){2}/i": {
-            "image": "eslint"
-        },
-        "/\\.(now|vercel)ignore/i": {
-            "image": "vercel"
-        },
-        "/\\prettier.config.js/i": {
-            "image": "prettier"
-        },
-        "/vue.config\\.(js|ts)/i": {
-            "image": "vueconfig"
-        },
-        "/vite.config\\.(js|ts)/i": {
-            "image": "viteconfig"
-        },
-        "/vitest.config\\.(js|ts|mjs)/i": {
-            "image": "vitestconfig"
-        },
-        "/jest.config\\.(js|ts)/i": {
-            "image": "jest"
-        },
-        "/tailwind\\.config\\.(js|cjs|mjs|ts|cts|mts)/i": {
-            "image": "tailwind"
-        },
-        "/gatsby-(browser|node|ssr|config)\\.js/i": {
-            "image": "gatsbyjs"
-        },
-        "/webpack(\\.dev|\\.development|\\.prod|\\.production)?\\.config(\\.babel)?\\.(js|jsx|coffee|ts|json|json5|yaml|yml)/i": {
-            "image": "webpack"
-        },
-        "babel.config.js": {
-            "image": "babel"
-        },
-        ".ahk": {
-            "image": "ahk"
-        },
-        ".ahkl": {
-            "image": "ahk"
-        },
-        ".adoc": {
-            "image": "asciidoc"
-        },
-        ".agda": {
-            "image": "agda"
-        },
-        ".lagda": {
-            "image": "agda"
-        },
-        ".asciidoc": {
-            "image": "asciidoc"
-        },
-        ".astro": {
-            "image": "astro"
-        },
-        ".astro.config.mjs": {
-            "image": "astroconfig"
-        },
-        "androidmanifest.xml": {
-            "image": "android"
-        },
-        ".bp": {
-            "image": "android"
-        },
-        "/^angular[^.]*\\.js$/i": {
-            "image": "angular"
-        },
-        ".ng": {
-            "image": "angular"
-        },
-        ".applescript": {
-            "image": "applescript"
+        "/(\\\\|\\/)dev[-\\w]+\\1(?:[^\\\\\\/]+\\1)*(?!DESC|NOTES)(?:[A-Z][-A-Z]*)(?:\\.in)?$|[\\/\\\\](?:magic[\\/\\\\]Magdir|file[\\/\\\\]magic)[\\/\\\\][-.\\w]+$|^pkginfo$|^mime\\.types$|^METADATA\\.pb$|\\.git[\\/\\\\](.*[\\/\\\\])?(HEAD|ORIG_HEAD|packed-refs|logs[\\/\\\\](.+[\\/\\\\])?[^\\/\\\\]+)$|\\.(geo|topo|cson|json5|ndjson|fea|json\\.eex|proto|pytb|pydeps|pot?|ejson|edn|eam\\.fs|qml|qbs|ston|ttl|rviz|syntax|webmanifest)$/": {
+            "image": "manifest"
         },
         "/(\\.)?appveyor\\.yml/i": {
             "image": "appveyor"
         },
-        ".ino": {
-            "image": "arduino"
+        "/(\\.firebaserc|firebase\\.json)/i": {
+            "image": "firebase"
         },
-        ".swf": {
-            "image": "as"
+        "/\\.editorconfig$/": {
+            "image": "editorconfig"
         },
-        ".as": {
-            "image": "as"
+        "/\\.env$/": {
+            "image": "env"
         },
-        ".jsfl": {
-            "image": "as"
-        },
-        ".swc": {
-            "image": "as"
-        },
-        ".asp": {
-            "image": "asp"
-        },
-        ".asax": {
-            "image": "asp"
-        },
-        ".ascx": {
-            "image": "asp"
-        },
-        ".ashx": {
-            "image": "asp"
-        },
-        ".asmx": {
-            "image": "asp"
-        },
-        ".aspx": {
-            "image": "asp"
-        },
-        ".axd": {
-            "image": "asp"
-        },
-        "/\\.(l?a|[ls]?o|out|s|a51|asm|axf|elf|prx|puff|z80)$/i": {
-            "image": "assembly"
-        },
-        ".agc": {
-            "image": "assembly"
-        },
-        ".ko": {
-            "image": "assembly"
-        },
-        ".kv": {
-            "image": "kivy"
-        },
-        ".ks": {
-            "image": "kag-script"
-        },
-        ".tjs": {
-            "image": "kirikiri-tpv-javascript"
-        },
-        ".lst": {
-            "image": "assembly"
-        },
-        "/\\.((c([+px]{2}?)?-?)?objdump|bsdiff|bin|dat|pak|pdb)$/i": {
-            "image": "assembly"
-        },
-        ".d-objdump": {
-            "image": "assembly"
-        },
-        "/\\.gcode|\\.gco/i": {
-            "image": "assembly"
-        },
-        "/\\.rpy[bc]$/i": {
-            "image": "assembly"
-        },
-        "/\\.py[co]$/i": {
-            "image": "assembly"
-        },
-        ".swp": {
-            "image": "assembly"
-        },
-        ".DS_Store": {
-            "image": "assembly"
-        },
-        ".au3": {
-            "image": "autoit"
-        },
-        "/\\.babelrc/i": {
+        "/\\.babelrc$|babel\\.config\\.js/i": {
             "image": "babel"
-        },
-        ".bat": {
-            "image": "bat"
-        },
-        ".batch": {
-            "image": "bat"
-        },
-        ".cmd": {
-            "image": "bat"
-        },
-        "/\\.(exe|com|msi)$/i": {
-            "image": "bat"
-        },
-        ".reg": {
-            "image": "bat"
-        },
-        "/^(BUILD)|(WORKSPACE)|(\\.bzl)|(\\.bazel(rc)?)|(\\.s(tar|ky))$/": {
-            "image": "bazel"
-        },
-        "/^(\\.bowerrc|bower\\.json|Bowerfile)$/i": {
-            "image": "bower"
-        },
-        "/\\.bf?$/i": {
-            "image": "brainfuck"
-        },
-        "/\\.c$/i": {
-            "image": "c"
-        },
-        "/(cargo.toml|cargo.lock)/i": {
-            "image": "cargo"
-        },
-        ".casc": {
-            "image": "casc"
-        },
-        ".cas": {
-            "image": "casc"
-        },
-        ".ces": {
-            "image": "citrinescript"
-        },
-        ".cfc": {
-            "image": "coldfusion"
-        },
-        ".cfm": {
-            "image": "coldfusion"
-        },
-        "circle.yml": {
-            "image": "circleci"
-        },
-        ".clj": {
-            "image": "clojure"
-        },
-        ".cl2": {
-            "image": "clojure"
-        },
-        ".cljc": {
-            "image": "clojure"
-        },
-        ".cljx": {
-            "image": "clojure"
-        },
-        ".hic": {
-            "image": "clojure"
-        },
-        "/\\.cljs(cm)?$/i": {
-            "image": "clojure"
-        },
-        ".cmake": {
-            "image": "cmake"
-        },
-        "/^CMakeLists\\.txt$/": {
-            "image": "cmake"
         },
         "/\\.codeclimate\\.(yml|json)/i": {
             "image": "codeclimate"
         },
-        ".cbl": {
-            "image": "cobol"
+        "/\\.eslint((rc|ignore)|(\\.(json|js))?$){2}/i": {
+            "image": "eslint"
         },
-        ".cob": {
-            "image": "cobol"
-        },
-        ".coffee": {
-            "image": "coffee"
-        },
-        ".cjsx": {
-            "image": "coffee"
-        },
-        ".coffee.ecr": {
-            "image": "coffee"
-        },
-        "/contenthook\\.config\\.(ts|cjs|mjs|js)$/i": {
-            "image": "contenthook"
-        },
-        "/contentkit\\.config\\.(ts|cjs|mjs|js)$/i": {
-            "image": "contentkit"
-        },
-        ".coffee.erb": {
-            "image": "coffee"
-        },
-        ".litcoffee": {
-            "image": "coffee"
-        },
-        ".iced": {
-            "image": "coffee"
-        },
-        ".cos": {
-            "image": "cosmo"
-        },
-        ".⭐": {
-            "image": "cosmo"
-        },
-        "/\\.c[+px]{2}$|\\.cc$/i": {
-            "image": "cpp"
-        },
-        "/\\.h[+px]{2}$/i": {
-            "image": "cpp"
-        },
-        "/\\.[it]pp$/i": {
-            "image": "cpp"
-        },
-        "/\\.(tcc|inl)$/i": {
-            "image": "cpp"
-        },
-        ".cats": {
-            "image": "cpp"
-        },
-        ".idc": {
-            "image": "cpp"
-        },
-        ".w": {
-            "image": "cpp"
-        },
-        ".nc": {
-            "image": "cpp"
-        },
-        ".upc": {
-            "image": "cpp"
-        },
-        ".xpm": {
-            "image": "cpp"
-        },
-        "/\\.e?cr$/i": {
-            "image": "crystal"
-        },
-        ".cs": {
-            "image": "csharp"
-        },
-        ".csx": {
-            "image": "csharp"
-        },
-        ".cshtml": {
-            "image": "razor"
-        },
-        ".csproj": {
-            "image": "csproj"
-        },
-        ".css": {
-            "image": "css"
-        },
-        ".css.map": {
-            "image": "cssmap"
-        },
-        ".cu": {
-            "image": "cuda"
-        },
-        ".pyx": {
-            "image": "cython"
-        },
-        "/\\.di?$/i": {
-            "image": "d"
-        },
-        ".dart": {
-            "image": "dart"
-        },
-        ".dfm": {
-            "image": "delphi"
-        },
-        ".dpr": {
-            "image": "delphi"
-        },
-        ".dsc": {
-            "image": "denizen"
-        },
-        ".dm": {
-            "image": "dm"
-        },
-        ".dme": {
-            "image": "dm"
-        },
-        ".dmm": {
-            "image": "dm"
-        },
-        "/^(Dockerfile|docker-compose)|\\.docker(file|ignore)$/i": {
-            "image": "docker"
-        },
-        "/^docker-sync\\.yml$/i": {
-            "image": "docker"
-        },
-        ".editorconfig": {
-            "image": "editorconfig"
-        },
-        ".ejs": {
-            "image": "ejs"
-        },
-        ".ex": {
-            "image": "elixir"
-        },
-        "/\\.(exs|l?eex)$/i": {
-            "image": "elixir"
-        },
-        "/^mix\\.(exs?|lock)$/i": {
-            "image": "elixir"
-        },
-        ".elm": {
-            "image": "elm"
-        },
-        ".env": {
-            "image": "env"
-        },
-        ".erl": {
-            "image": "erlang"
-        },
-        "/\\.([fF])(03|08|18|90|95)$/i": {
-            "image": "fortran"
-        },
-        ".beam": {
-            "image": "erlang"
-        },
-        ".hrl": {
-            "image": "erlang"
-        },
-        ".xrl": {
-            "image": "erlang"
-        },
-        ".yrl": {
-            "image": "erlang"
-        },
-        ".app.src": {
-            "image": "erlang"
-        },
-        "/^Emakefile$/": {
-            "image": "erlang"
-        },
-        "/^rebar(\\.config)?\\.lock$/i": {
-            "image": "erlang"
-        },
-        "/(\\.firebaserc|firebase\\.json)/i": {
-            "image": "firebase"
-        },
-        ".flowconfig": {
+        "/\\.flowconfig$/": {
             "image": "flowconfig"
         },
-        ".fountain": {
-            "image": "fountain"
+        "/\\.jest\\.config\\.(js|ts)/i": {
+            "image": "jest"
         },
-        ".spmd": {
-            "image": "fountain"
-        },
-        ".fs": {
-            "image": "fsharp"
-        },
-        ".fsi": {
-            "image": "fsharp"
-        },
-        ".fsscript": {
-            "image": "fsharp"
-        },
-        ".fsx": {
-            "image": "fsharp"
-        },
-        "/^Gemfile(\\.lock)?$/i": {
-            "image": "gemfile"
-        },
-        "/^\\.git|^\\.keep$|\\.mailmap$/i": {
-            "image": "git"
-        },
-        ".gml": {
-            "image": "gml"
-        },
-        ".gleam": {
-            "image": "gleam"
-        },
-        ".go": {
-            "image": "go"
-        },
-        ".gd": {
-            "image": "godot"
-        },
-        ".gr": {
-            "image": "grain"
-        },
-        ".gradle": {
-            "image": "gradle"
-        },
-        "gradlew": {
-            "image": "gradle"
-        },
-        "/\\.(g|c)sc$/i": {
-            "image": "gamescript"
-        },
-        ".gql": {
-            "image": "graphql"
-        },
-        ".graphql": {
-            "image": "graphql"
-        },
-        ".groovy": {
-            "image": "groovy"
-        },
-        "/\\.gv?y$/i": {
-            "image": "groovy"
-        },
-        ".gsh": {
-            "image": "groovy"
-        },
-        "/[Gg]runtfile\\.(js|coffee)/i": {
-            "image": "gruntfile"
-        },
-        "gulpfile.js": {
-            "image": "gulp"
-        },
-        "/\\.(hbs|handlebars|(mu)?stache)$/i": {
-            "image": "handlebars"
-        },
-        ".prg": {
-            "image": "harbour"
-        },
-        ".ha": {
-            "image": "hare"
-        },
-        ".hbp": {
-            "image": "harbour"
-        },
-        ".hbc": {
-            "image": "harbour"
-        },
-        ".rc": {
-            "image": "harbour"
-        },
-        ".fmg": {
-            "image": "harbour"
-        },
-        ".hs": {
-            "image": "haskell"
-        },
-        ".hsc": {
-            "image": "haskell"
-        },
-        ".c2hs": {
-            "image": "haskell"
-        },
-        ".c3": {
-            "image": "c3"
-        },
-        ".lhs": {
-            "image": "haskell"
-        },
-        "/\\.(hlsl|cginc|cg|shader|fx)$/i": {
-            "image": "hlsl"
-        },
-        "/\\.(glsl|vert|frag|geom|tesc|tese|comp)$/i": {
-            "image": "glsl"
-        },
-        "/\\.hx(ml)?$/i": {
-            "image": "haxe"
-        },
-        "/^procfile/i": {
-            "image": "heroku"
-        },
-        ".heex": {
-            "image": "heex"
-        },
-        "heroku.yml": {
-            "image": "heroku"
-        },
-        ".hjson": {
-            "image": "hjson"
-        },
-        ".hc": {
-            "image": "holyc"
-        },
-        "/\\.x?html?$/i": {
-            "image": "html"
-        },
-        ".http": {
-            "image": "http"
-        },
-        ".rest": {
-            "image": "http"
-        },
-        ".jar": {
-            "image": "jar"
-        },
-        ".java": {
-            "image": "java"
-        },
-        ".j2": {
-            "image": "jinja"
-        },
-        ".jinja": {
-            "image": "jinja"
-        },
-        ".js": {
-            "image": "js"
-        },
-        ".es6": {
-            "image": "js"
-        },
-        ".es": {
-            "image": "js"
-        },
-        ".mjs": {
-            "image": "js"
-        },
-        ".js.map": {
-            "image": "jsmap"
-        },
-        ".json": {
-            "image": "json"
-        },
-        ".jsonc": {
-            "image": "json"
-        },
-        ".jsx": {
-            "image": "jsx"
-        },
-        ".jule": {
-            "image": "jule"
-        },
-        "/\\.(jil|jl)/i": {
-            "image": "julia"
-        },
-        ".ipynb": {
-            "image": "jupyter"
-        },
-        "/\\.kt[ms]?$/i": {
-            "image": "kotlin"
-        },
-        ".lean": {
-            "image": "lean"
-        },
-        ".lean4markdown": {
-            "image": "lean"
-        },
-        ".less": {
-            "image": "less"
-        },
-        "/\\.l(i?sp)?$/i": {
-            "image": "lisp"
-        },
-        "/\\.n[ly]$/i": {
-            "image": "lisp"
-        },
-        ".podsl": {
-            "image": "lisp"
-        },
-        "/\\.s([s]|(cm)|(exp))$/i": {
-            "image": "lisp"
-        },
-        ".ls": {
-            "image": "livescript"
-        },
-        ".log": {
-            "image": "log"
-        },
-        "/\\.([w]|(pd_))?lua$/i": {
-            "image": "lua"
-        },
-        "/\\.luau$/i": {
-            "image": "luau"
-        },
-        "/\\.rbx(?:lx|l|m|s)?$/i": {
-            "image": "luau"
-        },
-        "/^Makefile/": {
-            "image": "makefile"
-        },
-        "/^mk\\.config$/": {
-            "image": "makefile"
-        },
-        "/\\.(mk|mak|make)$/i": {
-            "image": "makefile"
-        },
-        "/^BSDmakefile$/i": {
-            "image": "makefile"
-        },
-        "/^GNUmakefile$/i": {
-            "image": "makefile"
-        },
-        "/^makefile\\.sco$/i": {
-            "image": "makefile"
-        },
-        "/^Kbuild$/": {
-            "image": "makefile"
-        },
-        "/^makefile$/": {
-            "image": "makefile"
-        },
-        "/^mkfile$/i": {
-            "image": "makefile"
-        },
-        "/^\\.?qmake$/i": {
-            "image": "makefile"
-        },
-        "/\\.(geo|topo)$/i": {
-            "image": "manifest"
-        },
-        ".cson": {
-            "image": "manifest"
-        },
-        ".json5": {
-            "image": "manifest"
-        },
-        ".ndjson": {
-            "image": "manifest"
-        },
-        ".fea": {
-            "image": "manifest"
-        },
-        ".json.eex": {
-            "image": "manifest"
-        },
-        ".pawn": {
-            "image": "pawn"
-        },
-        ".proto": {
-            "image": "manifest"
-        },
-        ".pytb": {
-            "image": "manifest"
-        },
-        ".pydeps": {
-            "image": "manifest"
-        },
-        "/\\.pot?$/i": {
-            "image": "manifest"
-        },
-        ".ejson": {
-            "image": "manifest"
-        },
-        ".edn": {
-            "image": "manifest"
-        },
-        ".eam.fs": {
-            "image": "manifest"
-        },
-        ".qml": {
-            "image": "manifest"
-        },
-        ".qbs": {
-            "image": "manifest"
-        },
-        ".ston": {
-            "image": "manifest"
-        },
-        ".ttl": {
-            "image": "manifest"
-        },
-        ".typ": {
-            "image": "typst"
-        },
-        ".rviz": {
-            "image": "manifest"
-        },
-        ".sol": {
-            "image": "solidity"
-        },
-        ".syntax": {
-            "image": "manifest"
-        },
-        ".webmanifest": {
-            "image": "manifest"
-        },
-        "/^pkginfo$/": {
-            "image": "manifest"
-        },
-        ".moon": {
-            "image": "moonscript"
-        },
-        "/^mime\\.types$/i": {
-            "image": "manifest"
-        },
-        "/^METADATA\\.pb$/": {
-            "image": "manifest"
-        },
-        "/[\\/\\\\](?:magic[\\/\\\\]Magdir|file[\\/\\\\]magic)[\\/\\\\][-.\\w]+$/i": {
-            "image": "manifest"
-        },
-        "/(\\\\|\\/)dev[-\\w]+\\1(?:[^\\\\\\/]+\\1)*(?!DESC|NOTES)(?:[A-Z][-A-Z]*)(?:\\.in)?$/": {
-            "image": "manifest"
-        },
-        "lib/icons/.icondb.js": {
-            "image": "manifest"
-        },
-        "/\\.git[\\/\\\\](.*[\\/\\\\])?(HEAD|ORIG_HEAD|packed-refs|logs[\\/\\\\](.+[\\/\\\\])?[^\\/\\\\]+)$/": {
-            "image": "manifest"
-        },
-        "/\\.(md|mdown|markdown|mkd|mkdown|mdwn|mkdn|rmd|ron|pmd)$/i": {
-            "image": "markdown"
-        },
-        ".mdx": {
-            "image": "markdownx"
-        },
-        ".marko": {
-            "image": "marko"
-        },
-        "/\\.m$/i": {
-            "image": "matlab"
-        },
-        ".nim": {
-            "image": "nim"
-        },
-        ".nims": {
-            "image": "nim"
-        },
-        ".nimble": {
-            "image": "nim"
-        },
-        ".nix": {
-            "image": "nix"
-        },
-        ".npmrc": {
+        "/\\.npmrc$|\\.npmignore$|^package\\.json$/": {
             "image": "npm"
         },
-        ".npmignore": {
-            "image": "npm"
-        },
-        ".nut": {
-            "image": "squirrel"
-        },
-        "/\\.mm?$/i": {
-            "image": "objective-c"
-        },
-        ".pch": {
-            "image": "objective-c"
-        },
-        ".x": {
-            "image": "objective-c"
-        },
-        "/\\.eliom[i]?$/i": {
-            "image": "ocaml"
-        },
-        "/\\.ml[4lyi]?$/i": {
-            "image": "ocaml"
-        },
-        ".mt": {
-            "image": "metal"
-        },
-        ".odin": {
-            "image": "odin"
-        },
-        ".onyx": {
-            "image": "onyx"
-        },
-        "/\\.pas(cal)?$/i": {
-            "image": "pascal"
-        },
-        ".lpr": {
-            "image": "pascal"
-        },
-        ".inc": {
-            "image": "pawn"
-        },
-        ".sma": {
-            "image": "pawn"
-        },
-        "/\\.p(wn)?$/i": {
-            "image": "pawn"
-        },
-        ".sp": {
-            "image": "sourcepawn"
-        },
-        "/\\.p(er)?l$/i": {
-            "image": "perl"
-        },
-        ".al": {
-            "image": "perl"
-        },
-        "/\\.p([hm]|(lx))$/i": {
-            "image": "perl"
-        },
-        "/\\.(psgi|xs)$/i": {
-            "image": "perl"
-        },
-        ".pl6": {
-            "image": "perl"
-        },
-        "/\\.[tp]6$|\\.6pl$/i": {
-            "image": "perl"
-        },
-        "/\\.(pm6|p6m)$/i": {
-            "image": "perl"
-        },
-        ".6pm": {
-            "image": "perl"
-        },
-        ".nqp": {
-            "image": "perl"
-        },
-        ".p6l": {
-            "image": "perl"
-        },
-        ".pod6": {
-            "image": "perl"
-        },
-        "/^Rexfile$/": {
-            "image": "perl"
-        },
-        "/\\.php([st\\d]|_cs)?$/i": {
-            "image": "php"
-        },
-        "/^Phakefile/": {
-            "image": "php"
-        },
-        ".pony": {
-            "image": "ponylang"
-        },
-        ".pcss": {
-            "image": "postcss"
-        },
-        "/\\.ps[md]?1$/i": {
-            "image": "powershell"
-        },
-        ".ps1xml": {
-            "image": "powershell"
-        },
-        ".prettierignore": {
+        "/\\.prettier((rc)|(\\.(toml|yml|yaml|json|js))?$){2}$|\\prettier.config.js$|\\.prettierignore$/": {
             "image": "prettier"
         },
-        "prisma.yml": {
+        "/\\.prisma$|prisma\\.yml$/": {
             "image": "prisma"
         },
-        ".pde": {
-            "image": "processing"
+        "/\\.tailwind\\.config\\.(js|cjs|mjs|ts|cts|mts)/i": {
+            "image": "tailwind"
         },
-        ".jade": {
-            "image": "pug"
-        },
-        ".pug": {
-            "image": "pug"
-        },
-        ".purs": {
-            "image": "purescript"
-        },
-        ".ipy": {
-            "image": "python"
-        },
-        ".isolate": {
-            "image": "python"
-        },
-        ".pep": {
-            "image": "python"
-        },
-        "/\\.gypi?$/i": {
-            "image": "python"
-        },
-        ".pyde": {
-            "image": "python"
-        },
-        "/\\.py([wi3tp]|(de))?$/i": {
-            "image": "python"
-        },
-        ".tac": {
-            "image": "python"
-        },
-        ".wsgi": {
-            "image": "python"
-        },
-        ".xpy": {
-            "image": "python"
-        },
-        "/\\.rpy(?:m|mc|c|b)?$/i": {
-            "image": "renpy"
-        },
-        "/\\.?(pypirc|pythonrc|python-venv)$/i": {
-            "image": "python"
-        },
-        "/^(SConstruct|SConscript)$/": {
-            "image": "python"
-        },
-        "/^(Snakefile|WATCHLISTS)$/": {
-            "image": "python"
-        },
-        "/^wscript$/": {
-            "image": "python"
-        },
-        "/\\.(r|Rprofile|rsx|rd)$/i": {
-            "image": "r"
-        },
-        ".razor": {
-            "image": "razor"
-        },
-        "/\\.res?i?$/i": {
-            "image": "reasonml"
-        },
-        ".rst": {
-            "image": "restructuredtext"
-        },
-        "/\\.(rb|ru|ruby|erb|gemspec|god|mspec|pluginspec|podspec|rabl|rake|opal)$/i": {
-            "image": "ruby"
-        },
-        "/^\\.?(irbrc|gemrc|pryrc|ruby-(gemset|version))$/i": {
-            "image": "ruby"
-        },
-        "/^(Appraisals|(Rake|[bB]uild|Cap|Danger|Deliver|Fast|Guard|Jar|Maven|Pod|Puppet|Snap)file(\\.lock)?)$/": {
-            "image": "ruby"
-        },
-        "/\\.(jbuilder|rbuild|rb[wx]|builder)$/i": {
-            "image": "ruby"
-        },
-        "/^rails$/": {
-            "image": "ruby"
-        },
-        ".watchr": {
-            "image": "ruby"
-        },
-        ".rs": {
-            "image": "rust"
-        },
-        "/\\.(sc|scala)$/i": {
-            "image": "scala"
-        },
-        "/\\.s[ac]ss$/i": {
-            "image": "scss"
-        },
-        "/\\.(sh|rc|bats|bash|tool|install|command)$/i": {
-            "image": "shell"
-        },
-        "/^(\\.?bash(rc|[-_]?(profile|login|logout|history|prompt))|_osc|config|install-sh|PKGBUILD)$/i": {
-            "image": "shell"
-        },
-        "/\\.(ksh|mksh|pdksh)$/i": {
-            "image": "shell"
-        },
-        ".sh-session": {
-            "image": "shell"
-        },
-        "/\\.zsh(-theme|_history)?$|^\\.?(antigen|zpreztorc|zlogin|zlogout|zprofile|zshenv|zshrc)$/i": {
-            "image": "shell"
-        },
-        "/\\.fish$|^\\.fishrc$/i": {
-            "image": "shell"
-        },
-        "/^\\.?(login|profile)$/": {
-            "image": "shell"
-        },
-        ".inputrc": {
-            "image": "shell"
-        },
-        ".tmux": {
-            "image": "shell"
-        },
-        "/^(configure|config\\.(guess|rpath|status|sub)|depcomp|libtool|compile)$/": {
-            "image": "shell"
-        },
-        "/^\\/(private\\/)?etc\\/([^\\/]+\\/)*(profile$|nanorc$|rc\\.|csh\\.)/i": {
-            "image": "shell"
-        },
-        "/^\\.?cshrc$/i": {
-            "image": "shell"
-        },
-        ".profile": {
-            "image": "shell"
-        },
-        ".tcsh": {
-            "image": "shell"
-        },
-        ".csh": {
-            "image": "shell"
-        },
-        ".sk": {
-            "image": "skript"
-        },
-        ".sqf": {
-            "image": "sqf"
-        },
-        "/\\.(my)?sql$/i": {
-            "image": "sql"
-        },
-        ".ddl": {
-            "image": "sql"
-        },
-        ".udf": {
-            "image": "sql"
-        },
-        ".hql": {
-            "image": "sql"
-        },
-        ".rkt": {
-            "image": "racket"
-        },
-        ".viw": {
-            "image": "sql"
-        },
-        ".prc": {
-            "image": "sql"
-        },
-        ".cql": {
-            "image": "sql"
-        },
-        ".db2": {
-            "image": "sql"
-        },
-        "/\\.(styl|stylus)$/i": {
-            "image": "stylus"
-        },
-        ".sln": {
-            "image": "csproj"
-        },
-        "/\\.sv(h)?$/i": {
-            "image": "systemverilog"
-        },
-        ".svelte": {
-            "image": "svelte"
-        },
-        ".svg": {
-            "image": "svg"
-        },
-        ".swift": {
-            "image": "swift"
-        },
-        "/\\.tex(i)?$/i": {
-            "image": "tex"
-        },
-        ".ltx": {
-            "image": "tex"
-        },
-        ".aux": {
-            "image": "tex"
-        },
-        ".sty": {
-            "image": "tex"
-        },
-        ".dtx": {
-            "image": "tex"
-        },
-        ".cls": {
-            "image": "tex"
-        },
-        ".ins": {
-            "image": "tex"
-        },
-        ".lbx": {
-            "image": "tex"
-        },
-        ".mkiv": {
-            "image": "tex"
-        },
-        "/\\.mk[vi]i$/i": {
-            "image": "tex"
-        },
-        "/^hyphen(ex)?\\.(cs|den|det|fr|sv|us)$/": {
-            "image": "tex"
-        },
-        "/\\.te?xt$/i": {
-            "image": "text"
-        },
-        ".rtf": {
-            "image": "text"
-        },
-        "/\\.i?nfo$/i": {
-            "image": "text"
-        },
-        ".msg": {
-            "image": "text"
-        },
-        "/\\.(utxt|utf8)$/i": {
-            "image": "text"
-        },
-        ".templ": {
-            "image": "templ"
-        },
-        ".toml": {
-            "image": "toml"
-        },
-        ".travis.yml": {
-            "image": "travis"
-        },
-        ".ts.map": {
-            "image": "tsmap"
-        },
-        "/.*\\.d\\.ts/i": {
-            "image": "typescript-def"
-        },
-        ".ts": {
-            "image": "ts"
-        },
-        ".tsx": {
-            "image": "tsx"
-        },
-        ".twig": {
-            "image": "twig"
-        },
-        ".umm": {
-            "image": "umm"
-        },
-        ".v": {
-            "image": "v"
-        },
-        ".vh": {
-            "image": "v"
-        },
-        ".vala": {
-            "image": "vala"
-        },
-        ".vapi": {
-            "image": "vala"
-        },
-        ".vb": {
-            "image": "vb"
-        },
-        ".vbs": {
-            "image": "vb"
-        },
-        ".vbhtml": {
-            "image": "vb"
-        },
-        ".vbproj": {
-            "image": "vb"
-        },
-        ".vba": {
-            "image": "vba"
-        },
-        ".vcxproj": {
-            "image": "vcxproj"
-        },
-        ".verse": {
-            "image": "verse"
-        },
-        ".vscodeignore": {
-            "image": "vscodeignore"
-        },
-        ".vue": {
-            "image": "vue"
-        },
-        ".vhd": {
-            "image": "vhdl"
-        },
-        ".vhdl": {
-            "image": "vhdl"
-        },
-        ".zu": {
-            "image": "zura"
-        },
-        ".zura": {
-            "image": "zura"
-        },
-        ".wat": {
-            "image": "wasm"
-        },
-        ".wast": {
-            "image": "wasm"
-        },
-        ".wasm": {
-            "image": "wasm"
-        },
-        ".xml": {
-            "image": "xml"
-        },
-        ".xaml": {
-            "image": "xaml"
-        },
-        "/\\.ya?ml$/i": {
-            "image": "yaml"
-        },
-        "/^yarn(\\.lock)?$/i": {
-            "image": "yarn"
-        },
-        ".yarnrc": {
-            "image": "yarn"
-        },
-        "/yumma\\.config\\.(cjs|js|mjs|ts)/i": {
-            "image": "yummacss"
-        },
-        ".zig": {
-            "image": "zig"
-        },
-        ".maeel": {
-            "image": "maeel"
-        },
-        "/\\.(tfvars|tf)$/i": {
+        "/\\.tfvars$|\\.tf$/": {
             "image": "terraform"
         },
-        "/\\.mojo$/i": {
+        "/\\.travis\\.yml$/": {
+            "image": "travis"
+        },
+        "/\\.vite\\.config\\.(js|ts)/i": {
+            "image": "viteconfig"
+        },
+        "/\\.vitest\\.config\\.(js|ts|mjs)/i": {
+            "image": "vitestconfig"
+        },
+        "/\\.vscodeignore$/": {
+            "image": "vscodeignore"
+        },
+        "/\\.vue\\.config\\.(js|ts)/i": {
+            "image": "vueconfig"
+        },
+        "/\\.webpack(\\.dev|\\.development|\\.prod|\\.production)?\\.config(\\.babel)?\\.(js|jsx|coffee|ts|json|json5|yaml|yml)/i": {
+            "image": "webpack"
+        },
+        "/\\.yarnrc$|^yarn(\\.lock)?$/": {
+            "image": "yarn"
+        },
+        "/\\.yumma\\.config\\.(cjs|js|mjs|ts)/i": {
+            "image": "yummacss"
+        },
+        "/\\.astro\\.config\\.mjs/i": {
+            "image": "astroconfig"
+        },
+        "/\\.gatsby-(browser|node|ssr|config)\\.js/i": {
+            "image": "gatsbyjs"
+        },
+        "/^contenthook\\.config\\.(ts|cjs|mjs|js)$/": {
+            "image": "contenthook"
+        },
+        "/^contentkit\\.config\\.(ts|cjs|mjs|js)$/": {
+            "image": "contentkit"
+        },
+        "/^nodemon\\.json$/": {
+            "image": "nodemon"
+        },
+        "/^turbo\\.json$/": {
+            "image": "turbo"
+        },
+        "/circle\\.yml$/": {
+            "image": "circleci"
+        },
+        "/^heroku\\.yml$|^procfile/i": {
+            "image": "heroku"
+        },
+        "/^[Gg]runtfile\\.(js|coffee)/i": {
+            "image": "gruntfile"
+        },
+        "/^gulpfile\\.js$/": {
+            "image": "gulp"
+        },
+        "/^Gemfile(\\.lock)?$/": {
+            "image": "gemfile"
+        },
+        "/^(\\.bowerrc|bower\\.json|Bowerfile)$/": {
+            "image": "bower"
+        },
+        "/^(BUILD)|(WORKSPACE)|(\\.bzl)|(\\.bazel(rc)?)|(\\.s(tar|ky))$/": {
+            "image": "bazel"
+        },
+        "/^Makefile$|^mk\\.config$|\\.(mk|mak|make)$|^BSDmakefile$|^GNUmakefile$|^makefile\\.sco$|^Kbuild$|^makefile$|^mkfile$|^\\.?qmake$/": {
+            "image": "makefile"
+        },
+        "/\\.cmake$|^CMakeLists\\.txt$/": {
+            "image": "cmake"
+        },
+        "/^(Dockerfile|docker-compose)|\\.docker(file|ignore)$|^docker-sync\\.yml$/": {
+            "image": "docker"
+        },
+        "/\\.dockercompose$/": {
+            "image": "docker"
+        },
+        "/androidmanifest\\.xml$|\\.bp$/": {
+            "image": "android"
+        },
+        "/\\.((c([+px]{2}?)?-?)?objdump|bsdiff|bin|dat|pak|pdb)$|\\.d-objdump|\\.(l?a|[ls]?o|out|s|a51|asm|axf|elf|prx|puff|z80)$|\\.agc$|\\.ko$|\\.lst$|\\.gcode|\\.gco|\\.rpy[bc]$|\\.py[co]$|\\.swp$|\\.DS_Store$/": {
+            "image": "assembly"
+        },
+        "/\\.([fF])(03|08|18|90|95)$/": {
+            "image": "fortran"
+        },
+        "/\\.([w]|(pd_))?lua$/": {
+            "image": "lua"
+        },
+        "/\\.?(pypirc|pythonrc|python-venv)$|^(SConstruct|SConscript|Snakefile|WATCHLISTS|wscript)$|\\.ipy$|\\.isolate$|\\.pep$|\\.gypi?$|\\.pyde$|\\.py([wi3tp]|(de))?$|\\.tac$|\\.wsgi$|\\.xpy$/": {
+            "image": "python"
+        },
+        "/\\.?(zura|zu)$/": {
+            "image": "zura"
+        },
+        "/\\.ado[c]|\\.asciidoc$/": {
+            "image": "asciidoc"
+        },
+        "/\\.ahkl?$/": {
+            "image": "ahk"
+        },
+        "/\\.applescript$/": {
+            "image": "applescript"
+        },
+        "/\\.as[pc][x]?|\\.as[ah]x|\\.axd$/": {
+            "image": "asp"
+        },
+        "/\\.astro$/": {
+            "image": "astro"
+        },
+        "/\\.au3$/": {
+            "image": "autoit"
+        },
+        "/\\.bat(ch)?$|\\.cmd$|\\.(exe|com|msi)$|\\.reg$/": {
+            "image": "bat"
+        },
+        "/\\.bf?$/": {
+            "image": "brainfuck"
+        },
+        "/\\.c$/": {
+            "image": "c"
+        },
+        "/\\.c2hs$|\\.lhs$|\\.hsc?$|\\.hs$/": {
+            "image": "haskell"
+        },
+        "/\\.c3$/": {
+            "image": "c3"
+        },
+        "/\\.casc?$|\\.cas$/": {
+            "image": "casc"
+        },
+        "/\\.ces$/": {
+            "image": "citrinescript"
+        },
+        "/\\.cf[cm]$/": {
+            "image": "coldfusion"
+        },
+        "/\\.clj[cx2]?$|\\.hic$|\\.cljs(cm)?$/": {
+            "image": "clojure"
+        },
+        "/\\.cob(ol)?$/": {
+            "image": "cobol"
+        },
+        "/\\.coffee(\\.e[cr]b)?$|\\.cjsx$|\\.litcoffee$|\\.iced$/": {
+            "image": "coffee"
+        },
+        "/\\.cos$|\\.⭐$/": {
+            "image": "cosmo"
+        },
+        "/\\.c[+px]{2}$|\\.cc$|\\.h[+px]{2}$|\\.[it]pp$|\\.(tcc|inl)$|\\.cats$|\\.idc$|\\.w$|\\.nc$|\\.upc$|\\.xpm$/": {
+            "image": "cpp"
+        },
+        "/\\.csx?$/": {
+            "image": "csharp"
+        },
+        "/\\.csproj$|\\.sln$/": {
+            "image": "csproj"
+        },
+        "/\\.css\\.map$/": {
+            "image": "cssmap"
+        },
+        "/\\.css$/": {
+            "image": "css"
+        },
+        "/\\.cu$/": {
+            "image": "cuda"
+        },
+        "/\\.dart$/": {
+            "image": "dart"
+        },
+        "/\\.dfm$|\\.dpr$/": {
+            "image": "delphi"
+        },
+        "/\\.di?$/": {
+            "image": "d"
+        },
+        "/\\.dm[em]?$/": {
+            "image": "dm"
+        },
+        "/\\.dsc$/": {
+            "image": "denizen"
+        },
+        "/\\.d\\.ts/i": {
+            "image": "typescript-def"
+        },
+        "/\\.e?cr$/": {
+            "image": "crystal"
+        },
+        "/\\.ejs$/": {
+            "image": "ejs"
+        },
+        "/\\.eliom[i]?$|\\.ml[4lyi]?$/": {
+            "image": "ocaml"
+        },
+        "/\\.elm$/": {
+            "image": "elm"
+        },
+        "/\\.erl$|\\.beam$|\\.[hxy]rl$|\\.app\\.src$|^Emakefile$|^rebar(\\.config)?\\.lock$/": {
+            "image": "erlang"
+        },
+        "/\\.ex$|\\.(exs|l?eex)$|^mix\\.(exs?|lock)$/": {
+            "image": "elixir"
+        },
+        "/\\.fountain$|\\.spmd$/": {
+            "image": "fountain"
+        },
+        "/\\.fs[ix]?$|\\.fsscript$/": {
+            "image": "fsharp"
+        },
+        "/\\.g(d|odot)$/": {
+            "image": "godot"
+        },
+        "/\\.gleam$/": {
+            "image": "gleam"
+        },
+        "/\\.glsl$|\\.(vert|frag|geom|tesc|tese|comp)$/": {
+            "image": "glsl"
+        },
+        "/\\.gml$/": {
+            "image": "gml"
+        },
+        "/\\.go$/": {
+            "image": "go"
+        },
+        "/\\.gql$|\\.graphql$/": {
+            "image": "graphql"
+        },
+        "/\\.gradle$|^gradlew$/": {
+            "image": "gradle"
+        },
+        "/\\.gr$/": {
+            "image": "grain"
+        },
+        "/\\.groovy$|\\.gv?y$|\\.gsh$/": {
+            "image": "groovy"
+        },
+        "/\\.gypi?$/": {
+            "image": "python"
+        },
+        "/\\.gz$/": {
+            "image": "zip"
+        },
+        "/\\.handlebars$|\\.(hbs|(mu)?stache)$/": {
+            "image": "handlebars"
+        },
+        "/\\.ha$/": {
+            "image": "hare"
+        },
+        "/\\.hc$/": {
+            "image": "holyc"
+        },
+        "/\\.heex$/": {
+            "image": "heex"
+        },
+        "/\\.hjson$/": {
+            "image": "hjson"
+        },
+        "/\\.hlsl$|\\.(cginc|cg|shader|fx)$/": {
+            "image": "hlsl"
+        },
+        "/\\.h?prg$|\\.hb[pc]$|\\.rc$|\\.fmg$/": {
+            "image": "harbour"
+        },
+        "/\\.htt?p$|\\.rest$/": {
+            "image": "http"
+        },
+        "/\\.hx(ml)?$/": {
+            "image": "haxe"
+        },
+        "/\\.ino$/": {
+            "image": "arduino"
+        },
+        "/\\.jar$/": {
+            "image": "jar"
+        },
+        "/\\.java$/": {
+            "image": "java"
+        },
+        "/\\.jil$|\\.jl$/": {
+            "image": "julia"
+        },
+        "/\\.jinja$|\\.j2$/": {
+            "image": "jinja"
+        },
+        "/\\.jsonc?$/": {
+            "image": "json"
+        },
+        "/\\.js\\.map$/": {
+            "image": "jsmap"
+        },
+        "/\\.jsx$/": {
+            "image": "jsx"
+        },
+        "/\\.jule$/": {
+            "image": "jule"
+        },
+        "/\\.kt[ms]?$/": {
+            "image": "kotlin"
+        },
+        "/\\.kv$/": {
+            "image": "kivy"
+        },
+        "/\\.l?agda$/": {
+            "image": "agda"
+        },
+        "/\\.lean(4markdown)?$/": {
+            "image": "lean"
+        },
+        "/\\.less$/": {
+            "image": "less"
+        },
+        "/\\.l(i?sp)?$|\\.n[ly]$|\\.podsl$|\\.s([s]|(cm)|(exp))$/": {
+            "image": "lisp"
+        },
+        "/\\.log$/": {
+            "image": "log"
+        },
+        "/\\.ls$/": {
+            "image": "livescript"
+        },
+        "/\\.luau$|\\.rbx(?:lx|l|m|s)?$/": {
+            "image": "luau"
+        },
+        "/\\.maeel$/": {
+            "image": "maeel"
+        },
+        "/\\.marko$/": {
+            "image": "marko"
+        },
+        "/\\.mdx$/": {
+            "image": "markdownx"
+        },
+        "/\\.mk[vi]i$|\\.mkiv$/": {
+            "image": "tex"
+        },
+        "/\\.mm?$/": {
+            "image": "objective-c"
+        },
+        "/\\.mojo$|\\.🔥$/": {
             "image": "mojo"
         },
-        ".🔥": {
-            "image": "mojo"
+        "/\\.moon$/": {
+            "image": "moonscript"
         },
-        ".zs": {
+        "/\\.mt$/": {
+            "image": "metal"
+        },
+        "/\\.m$/": {
+            "image": "matlab"
+        },
+        "/\\.nim(s|ble)?$/": {
+            "image": "nim"
+        },
+        "/\\.nix$/": {
+            "image": "nix"
+        },
+        "/\\.nut$/": {
+            "image": "squirrel"
+        },
+        "/\\.odin$/": {
+            "image": "odin"
+        },
+        "/\\.onyx$/": {
+            "image": "onyx"
+        },
+        "/\\.opengoal$|\\.gc$/": {
+            "image": "opengoal"
+        },
+        "/\\.opengoal-goos$|\\.goos$/": {
+            "image": "opengoal-goos"
+        },
+        "/\\.opengoal-ir$|\\.ir$/": {
+            "image": "opengoal-ir"
+        },
+        "/\\.pas(cal)?$|\\.lpr$/": {
+            "image": "pascal"
+        },
+        "/\\.pawn$|\\.inc$|\\.sma$|\\.p(wn)?$/": {
+            "image": "pawn"
+        },
+        "/\\.pch$|\\.x$/": {
+            "image": "objective-c"
+        },
+        "/\\.pcss$/": {
+            "image": "postcss"
+        },
+        "/\\.pde$/": {
+            "image": "processing"
+        },
+        "/\\.p(er)?l$|\\.al$|\\.p([hm]|(lx))$|\\.(psgi|xs)$|\\.pl6$|\\.[tp]6$|\\.6pl$|\\.(pm6|p6m)$|\\.6pm$|\\.nqp$|\\.p6l$|\\.pod6$|^Rexfile$/": {
+            "image": "perl"
+        },
+        "/\\.php([st\\d]|_cs)?$|^Phakefile/i": {
+            "image": "php"
+        },
+        "/\\.pony$/": {
+            "image": "ponylang"
+        },
+        "/\\.ps[md]?1$|\\.ps1xml$/": {
+            "image": "powershell"
+        },
+        "/\\.pug$|\\.jade$/": {
+            "image": "pug"
+        },
+        "/\\.purs$/": {
+            "image": "purescript"
+        },
+        "/\\.pyx$/": {
+            "image": "cython"
+        },
+        "/\\.razor$|\\.cshtml$/": {
+            "image": "razor"
+        },
+        "/\\.rb$|\\.ru$|\\.ruby$|\\.erb$|\\.gemspec$|\\.god$|\\.mspec$|\\.pluginspec$|\\.podspec$|\\.rabl$|\\.rake$|\\.opal$|\\.?(irbrc|gemrc|pryrc|ruby-(gemset|version))$|^(Appraisals|(Rake|[bB]uild|Cap|Danger|Deliver|Fast|Guard|Jar|Maven|Pod|Puppet|Snap)file(\\.lock)?)$|\\.(jbuilder|rbuild|rb[wx]|builder)$|^rails$|\\.watchr$/": {
+            "image": "ruby"
+        },
+        "/\\.res?i?$/": {
+            "image": "reasonml"
+        },
+        "/\\.rkt$/": {
+            "image": "racket"
+        },
+        "/\\.rpy(?:m|mc|c|b)?$/": {
+            "image": "renpy"
+        },
+        "/\\.rs$/": {
+            "image": "rust"
+        },
+        "/\\.rst$/": {
+            "image": "restructuredtext"
+        },
+        "/\\.r$|\\.Rprofile$|\\.rsx$|\\.rd$/": {
+            "image": "r"
+        },
+        "/\\.s[ac]ss$/": {
+            "image": "scss"
+        },
+        "/\\.sc(ala)?$/": {
+            "image": "scala"
+        },
+        "/\\.sh$|\\.rc$|\\.bats$|\\.bash$|\\.tool$|\\.install$|\\.command$|^(\\.?bash(rc|[-_]?(profile|login|logout|history|prompt))|_osc|config|install-sh|PKGBUILD)$|\\.(ksh|mksh|pdksh)$|\\.sh-session$|\\.zsh(-theme|_history)?$|^\\.?(antigen|zpreztorc|zlogin|zlogout|zprofile|zshenv|zshrc)$|\\.fish$|^\\.fishrc$|^\\.?(login|profile)$|\\.inputrc$|\\.tmux$|^(configure|config\\.(guess|rpath|status|sub)|depcomp|libtool|compile)$|^\\/(private\\/)?etc\\/([^\\/]+\\/)*(profile$|nanorc$|rc\\.|csh\\.)|^\\.?cshrc$|\\.profile$|\\.tcsh$|\\.csh$/": {
+            "image": "shell"
+        },
+        "/\\.sk$/": {
+            "image": "skript"
+        },
+        "/\\.sol$/": {
+            "image": "solidity"
+        },
+        "/\\.sp$/": {
+            "image": "sourcepawn"
+        },
+        "/\\.sqf$/": {
+            "image": "sqf"
+        },
+        "/\\.sql$|\\.mysql$|\\.ddl$|\\.udf$|\\.hql$|\\.viw$|\\.prc$|\\.cql$|\\.db2$/": {
+            "image": "sql"
+        },
+        "/\\.styl(us)?$/": {
+            "image": "stylus"
+        },
+        "/\\.sv(h)?$/": {
+            "image": "systemverilog"
+        },
+        "/\\.svelte$/": {
+            "image": "svelte"
+        },
+        "/\\.svg$/": {
+            "image": "svg"
+        },
+        "/\\.swf$|\\.as$|\\.jsfl$|\\.swc$/": {
+            "image": "as"
+        },
+        "/\\.swift$/": {
+            "image": "swift"
+        },
+        "/\\.templ$/": {
+            "image": "templ"
+        },
+        "/\\.te?xt$|\\.rtf$|\\.i?nfo$|\\.msg$|\\.utxt$|\\.utf8$/": {
+            "image": "text"
+        },
+        "/\\.tex(i)?$|\\.ltx$|\\.aux$|\\.sty$|\\.dtx$|\\.cls$|\\.ins$|\\.lbx$|^hyphen(ex)?\\.(cs|den|det|fr|sv|us)$/": {
+            "image": "tex"
+        },
+        "/\\.toml$/": {
+            "image": "toml"
+        },
+        "/\\.tsx$/": {
+            "image": "tsx"
+        },
+        "/\\.ts\\.map$/": {
+            "image": "tsmap"
+        },
+        "/\\.ts$/": {
+            "image": "ts"
+        },
+        "/\\.twig$/": {
+            "image": "twig"
+        },
+        "/\\.typ$/": {
+            "image": "typst"
+        },
+        "/\\.umm$/": {
+            "image": "umm"
+        },
+        "/\\.vala$|\\.vapi$/": {
+            "image": "vala"
+        },
+        "/\\.vba$/": {
+            "image": "vba"
+        },
+        "/\\.vb$|\\.vbs$|\\.vbhtml$|\\.vbproj$/": {
+            "image": "vb"
+        },
+        "/\\.vcxproj$/": {
+            "image": "vcxproj"
+        },
+        "/\\.verse$/": {
+            "image": "verse"
+        },
+        "/\\.vhd(l)?$/": {
+            "image": "vhdl"
+        },
+        "/\\.vue$/": {
+            "image": "vue"
+        },
+        "/\\.v$|\\.vh$/": {
+            "image": "v"
+        },
+        "/\\.wa(sm|t|st)$/": {
+            "image": "wasm"
+        },
+        "/\\.x(ml|aml)$/": {
+            "image": "xml"
+        },
+        "/\\.ya?ml$/": {
+            "image": "yaml"
+        },
+        "/\\.zig$/": {
+            "image": "zig"
+        },
+        "/\\.zs$/": {
             "image": "zs"
+        },
+        "/^angular[^.]*\\.js$|\\.ng$/": {
+            "image": "angular"
+        },
+        "/^ipynb$/": {
+            "image": "jupyter"
+        },
+        "/^ks$/": {
+            "image": "kag-script"
+        },
+        "/^tjs$/": {
+            "image": "kirikiri-tpv-javascript"
+        },
+        "/g(sc|c)$/": {
+            "image": "gamescript"
+        },
+        "/s(s|tylus)$/": {
+            "image": "stylus"
+        },
+        "/\\.(es6?|m?js|pac)$/": {
+            "image": "js"
         }
     }
 }

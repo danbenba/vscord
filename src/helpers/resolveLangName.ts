@@ -8,13 +8,30 @@ export const toUpper = <S extends string>(str: S) => str.toLocaleUpperCase() as 
 export const toTitle = <S extends string>(str: S) =>
     toLower(str).replace(/^.{1}/, (c) => toUpper(c)) as Capitalize<Lowercase<S>>;
 
-export const fileExtensionEquals = (filename: string, key: string) => {
-    if (filename.endsWith(key)) return true;
+const objectFindEntryOf = <T extends Record<string, unknown>>(
+    v: T,
+    predicate: (value: [keyof T, T[keyof T]]) => boolean
+): [keyof T, T[keyof T]] | undefined => {
+    const entries = Object.entries(v) as [keyof T, T[keyof T]][];
 
-    const match = /^\/(.*)\/([mgiy]+)$/.exec(key);
-    if (!match) return false;
+    const foundEntry = entries.find((value) => predicate(value));
 
-    return new RegExp(match[1], match[2]).test(filename);
+    return foundEntry;
+};
+
+export const regexFromStr = (str: string): RegExp => {
+    const match = /^\/(.+)\/([a-z]*)$/i.exec(str);
+    if (match) {
+        const [, pattern, flags] = match;
+        try {
+            return new RegExp(pattern, flags);
+        } catch (error) {
+            return new RegExp(/(?!)/g);
+        }
+    }
+
+    const escaped = str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`${escaped}$`, "i");
 };
 
 export const resolveLangName = (document: TextDocument): string => {
@@ -28,10 +45,16 @@ export const resolveLangName = (document: TextDocument): string => {
     );
 
     const filename = basename(document.fileName);
+    console.log(filename);
     const findKnownExtension =
-        KNOWN_LANGUAGES.find((key) => key.language === document.languageId) ??
-        Object.keys(ADDITIONAL_FILE_MAPPING).find((extension) => fileExtensionEquals(filename, extension)) ??
-        Object.keys(KNOWN_EXTENSIONS).find((extension) => fileExtensionEquals(filename, extension));
+        (objectFindEntryOf(ADDITIONAL_FILE_MAPPING, ([extension]) =>
+            regexFromStr(extension.toString()).test(filename)
+        ) ?? [undefined, undefined])[1] ??
+        (objectFindEntryOf(KNOWN_EXTENSIONS, ([extension]) => regexFromStr(extension).test(filename)) ?? [
+            undefined,
+            undefined
+        ])[1] ??
+        KNOWN_LANGUAGES.find((key) => key.language === document.languageId);
 
     return typeof findKnownExtension === "string" ? findKnownExtension : (findKnownExtension?.image ?? "text");
 };
